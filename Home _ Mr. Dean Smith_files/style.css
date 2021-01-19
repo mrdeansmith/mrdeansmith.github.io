@@ -1,0 +1,122 @@
+/**
+ * @file
+ * Subtheme specific CSS.*/
+
+ a, .link {
+	color: #406aad!important;
+ }
+
+ .site-footer {
+	background-color: #406aad!important;
+ }
+
+.h2, h2 {
+	font-size: 1.25rem;
+} 
+.footer_color {
+	text-align: center;
+	border: none; 
+}
+.view_padding {
+	padding: 30px;
+}
+.header_font {
+	font-family: 'Montserrat', sans-serif;
+	/* color: #FFFFFF */
+}
+.content_items {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+}
+.sidebar_items {
+	border: none;
+	/* border-color: #FFFFFF; */
+}
+.breadcrumb_items img:hover {
+	/* -webkit-transform: scale(1.25,1.25); */
+	/* transform: scale(1.125,1.125); */
+}
+.breadcrumb_items img{
+	width: 100%;
+}
+#block-portfolio-page-title .content h1 {
+ text-align: center;
+}
+.node--view-mode-teaser .node__content {
+	clear: none;
+	font-size: 1rem;
+	line-height: 1;
+}
+.view_padding {
+	padding: 0px;
+	width: 100%;
+}
+.breadcrumb_items img {
+	width: 100%;
+	height: auto;
+}
+.field.field--name-field-image.field--type-image.field--label-hidden.field__item.quickedit-field {
+	width: 100%;
+}
+h2.node__title,
+div.node__content img,
+div.field.field--name-field-link {
+ text-align: center;
+}
+div.node__content img {
+	border: solid 1px black;
+}
+.field.field--name-field-link:before {
+  content: "visit: ";
+}
+ul.clearfix.nav.navbar-nav {
+    position: absolute;
+}
+nav#block-portfolio-footer {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+nav#block-portfolio-footer ul {
+    width: 100%;
+    text-align: center;
+}
+nav#block-portfolio-footer a {
+    color: white!important;
+}
+a.navbar-brand {
+    display: none;
+}
+.featured-top {
+    padding-top: 2rem;
+    text-align: center;
+}
+.featured-top p {
+	margin-right: 1rem;
+	margin-left: 1rem;
+}
+h2.node__title a {
+    pointer-events: none;
+}
+section.row.region.region-featured-bottom-first {
+    position: relative;
+}
+a.nav-link.nav-link--contact:after {
+    content: " Dean Smith";
+}
+body.path-contact input#edit-preview {
+    display: none;
+}
+body.path-contact input#edit-submit,
+.btn-primary {
+  background-color: #406aad;
+	border-color: #406aad;
+	margin-bottom: 5rem;
+}
+body.path-contact .featured-bottom li.nav-item.active {
+    display: none;
+}
+.breadcrumb {
+    font-size: 1.5rem;
+    padding-left: 0;
+}
